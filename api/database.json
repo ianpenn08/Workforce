@@ -1,0 +1,100 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Hp Envy ",
+            "year": 2017
+        },
+        {
+            "id": 3,
+            "model": "Dell G7",
+            "year": 2018
+        },
+        {
+            "id": 4,
+            "model": "Lenovo ThinkPad",
+            "year": 2016
+        },
+        {
+            "id": 5,
+            "model": "Microsoft Surface",
+            "year": 2018
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1
+        },
+        {
+            "id": 1,
+            "firstName": "Bob",
+            "lastName": "Marly",
+            "computerId": 2
+        },
+        {
+            "id": 1,
+            "firstName": "Sam",
+            "lastName": "Iam",
+            "computerId": 3
+        },
+        {
+            "id": 1,
+            "firstName": "Bob",
+            "lastName": "Barker",
+            "computerId": 4
+        },
+        {
+            "id": 1,
+            "firstName": "Knight",
+            "lastName": "ShiningArmor",
+            "computerId": 5
+        }, 
+        {
+            "id": 1,
+            "firstName": "Hairy",
+            "lastName": "Styles",
+            "computerId": 6
+        }
+    ],
+
+    "employeeComputerData": [
+        {
+            "id": 1,
+            "employeesId": 1,
+            "computerId": 1
+        },
+        {
+            "id": 1,
+            "employeesId": 2,
+            "computerId": 2
+        },
+        {
+            "id": 1,
+            "employeesId": 3,
+            "computerId": 3
+        },
+        {
+            "id": 1,
+            "employeesId": 4,
+            "computerId": 4
+        },
+        {
+            "id": 1,
+            "employeesId": 5,
+            "computerId": 5
+        },
+        {
+            "id": 1,
+            "employeesId": 6,
+            "computerId": 6
+        }
+    ]
+}
