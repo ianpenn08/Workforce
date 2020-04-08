@@ -1,29 +1,30 @@
-import { useComputers } from "../computerDataProvider";
-import { useEmployees } from "./employeeDataProvider";
-import { useemployeeComputerData } from "../employeeComputerProvider";
-import Employee from "./employee";
+import { useComputers } from "../computerDataProvider.js";
+import { useEmployees } from "./employeeDataProvider.js";
+import {Employee} from "./employee.js";
 
 const contentTarget = document.querySelector(".employee")
 
-export const employeeList = () => {
-    const Computers = useComputers()
-    const Employees = useEmployees()
-    const employeeComputerData = useemployeeComputerData()
+const render = employeesToRender => {
+    const computers = useComputers()
 
-    const render = () =>{
-        contentTarget.innerHTML = Employees.map(employee => {
-            let relatedEmployees = employeeComputerData.filter(pc => pc.employeesId === employee.id)
-
-            relatedEmployees = relatedEmployees.map(rc => {
-                return Computers.find(computer => computer.id === rc.computerId)
-            })
-
-            const html = Employee(employee, relatedEmployees)
-            return html
-        }).join("")
-    }
-    render()
+    contentTarget.innerHTML = employeesToRender.map(
+        (employeeObject) => {
+            
+            const foundComputer = computers.find(
+                (computer) => {
+                    return computer.id === employeeObject.computerId
+                }
+            )
+        
+            return Employee(employeeObject, foundComputer)
+        }
+    ).join("")
 }
 
-export default employeeList
+export const employeeList = () => {
+    const employees = useEmployees()
+
+    render(employees)
+}
+
 
