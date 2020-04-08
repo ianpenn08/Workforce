@@ -1,17 +1,9 @@
-const Employee = (employees, computers) => {
+export const Employee = (employeeObject, computerObject) => {
     return `
     <section class="employee">
-        <header>
-            <h2>${employees.firstName}${employees.lastName}</h2>
-        </header>
-        <div> 
-            <ol>
-                ${
-                    computers.map(computer => `<li>${computer.model}${computer.year}</li>`.join("") )
-                }
-            </ol>
-        </div>
-    </section>    
+    <h2>${employeeObject.firstName} ${employeeObject.lastName}</h2>
+    <div>Age: ${employeeObject.age}</div>
+    <div>Current computer: ${computerObject.year} ${computerObject.model}</div>
+</section   
     `
 }
-export default Employee

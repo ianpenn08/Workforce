@@ -24,6 +24,11 @@
             "id": 5,
             "model": "Microsoft Surface",
             "year": 2018
+        },
+        {
+            "id": 6,
+            "model": "Microsoft Gated",
+            "year": 2020
         }
     ],
     "employees": [
@@ -31,69 +36,42 @@
             "id": 1,
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
+            "age": 26,
             "computerId": 1
         },
         {
             "id": 1,
             "firstName": "Bob",
             "lastName": "Marly",
+            "age": 24,
             "computerId": 2
         },
         {
             "id": 1,
             "firstName": "Sam",
             "lastName": "Iam",
+            "age": 25,
             "computerId": 3
         },
         {
             "id": 1,
             "firstName": "Bob",
             "lastName": "Barker",
+            "age": 26,
             "computerId": 4
         },
         {
             "id": 1,
             "firstName": "Knight",
             "lastName": "ShiningArmor",
+            "age": 32,
             "computerId": 5
         }, 
         {
             "id": 1,
             "firstName": "Hairy",
             "lastName": "Styles",
-            "computerId": 6
-        }
-    ],
-
-    "employeeComputerData": [
-        {
-            "id": 1,
-            "employeesId": 1,
-            "computerId": 1
-        },
-        {
-            "id": 1,
-            "employeesId": 2,
-            "computerId": 2
-        },
-        {
-            "id": 1,
-            "employeesId": 3,
-            "computerId": 3
-        },
-        {
-            "id": 1,
-            "employeesId": 4,
-            "computerId": 4
-        },
-        {
-            "id": 1,
-            "employeesId": 5,
-            "computerId": 5
-        },
-        {
-            "id": 1,
-            "employeesId": 6,
+            "age": 28,
             "computerId": 6
         }
     ]
