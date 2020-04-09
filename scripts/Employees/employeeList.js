@@ -34,10 +34,32 @@ const render = employeesToRender => {
     ).join("")
 }
 
+
+const employeeList = () => {
+    const customers = useCustomers()
+    const customerRelationships = useEmployeeCustomers()
+
+    const render = () => {
+        contentTarget.innerHTML = `
+            ${
+                employees.map(employee => {
+                    // Find all the customer relationships
+                    const relationships = customerRelationships.filter()
+
+                    // Find the related customer for each relationship
+                    const assignedCustomers = relationships.map(rel => {
+                        return customers.find()
+                    })
+                }).join("")
+            }
+        `
+    }
+
+    render()
+}
+
 export const employeeList = () => {
     const employees = useEmployees()
 
     render(employees)
 }
-
-

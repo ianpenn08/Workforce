@@ -42,7 +42,7 @@
             "locationId": 1
         },
         {
-            "id": 1,
+            "id": 2,
             "firstName": "Bob",
             "lastName": "Marly",
             "age": 24,
@@ -51,7 +51,7 @@
             "locationId": 2
         },
         {
-            "id": 1,
+            "id": 3,
             "firstName": "Sam",
             "lastName": "Iam",
             "age": 25,
@@ -60,7 +60,7 @@
             "locationId": 3
         },
         {
-            "id": 1,
+            "id": 4,
             "firstName": "Bob",
             "lastName": "Barker",
             "age": 26,
@@ -69,7 +69,7 @@
             "locationId": 1
         },
         {
-            "id": 1,
+            "id": 5,
             "firstName": "Knight",
             "lastName": "ShiningArmor",
             "age": 32,
@@ -78,7 +78,7 @@
             "locationId": 2
         }, 
         {
-            "id": 1,
+            "id": 6,
             "firstName": "Hairy",
             "lastName": "Styles",
             "age": 28,
@@ -118,5 +118,85 @@
             "id": 3,
             "name": "Atlanta"
         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Bluelife Health Service"
+        },  {
+            "id": 3,
+            "name": "Healthy People Health Services"
+        },
+        {
+            "id": 4,
+            "name": "Walker Distribution"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 1,
+            "customerId2": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 1,
+            "customerId2": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 1,
+            "customerId2": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 4
+        },
+        {
+            "id": 1,
+            "customerId2": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 5
+        },
+        {
+            "id": 1,
+            "customerId2": 3,
+            "employeeId": 5
+        },
+        {
+            "id": 1,
+            "customerId": 4,
+            "employeeId": 6
+        },
+        {
+            "id": 1,
+            "customerId2": 1,
+            "employeeId": 6
+        }
+        
     ]
 }
