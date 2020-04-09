@@ -37,42 +37,66 @@
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
             "age": 26,
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 1
         },
         {
             "id": 1,
             "firstName": "Bob",
             "lastName": "Marly",
             "age": 24,
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 2
         },
         {
             "id": 1,
             "firstName": "Sam",
             "lastName": "Iam",
             "age": 25,
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 3
         },
         {
             "id": 1,
             "firstName": "Bob",
             "lastName": "Barker",
             "age": 26,
-            "computerId": 4
+            "computerId": 4,
+            "departmentId": 4
         },
         {
             "id": 1,
             "firstName": "Knight",
             "lastName": "ShiningArmor",
             "age": 32,
-            "computerId": 5
+            "computerId": 5,
+            "departmentId": 2
         }, 
         {
             "id": 1,
             "firstName": "Hairy",
             "lastName": "Styles",
             "age": 28,
-            "computerId": 6
+            "computerId": 6,
+            "departmentId": 3
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "IT"
+        },
+        {
+            "id": 2,
+            "name": "HR"
+        },
+        {
+            "id": 3,
+            "name": "Maintenance"
+        },
+        {
+            "id": 4,
+            "name": "Asssembly"
         }
     ]
 }

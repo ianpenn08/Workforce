@@ -1,11 +1,13 @@
 import { useComputers } from "../computerDataProvider.js";
 import { useEmployees } from "./employeeDataProvider.js";
 import {Employee} from "./employee.js";
+import { useDepartments } from "../../Department/departmentDataProvider.js";
 
 const contentTarget = document.querySelector(".employee")
 
 const render = employeesToRender => {
     const computers = useComputers()
+    const departments = useDepartments()
 
     contentTarget.innerHTML = employeesToRender.map(
         (employeeObject) => {
@@ -15,8 +17,12 @@ const render = employeesToRender => {
                     return computer.id === employeeObject.computerId
                 }
             )
-        
-            return Employee(employeeObject, foundComputer)
+            const foundDepartment = departments.find(
+                (department) => {
+                    return department.id === employeeObject.departmentId
+                }
+            )
+            return Employee(employeeObject, foundComputer, foundDepartment)
         }
     ).join("")
 }
