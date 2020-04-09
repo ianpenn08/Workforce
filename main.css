@@ -1,0 +1,8 @@
+#container{
+    background-color: rgb(101, 101, 250);
+}
+.employee {
+    display: flex;
+    border: solid black;
+    flex-direction: column;
+}
