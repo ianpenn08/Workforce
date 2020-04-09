@@ -1,4 +1,4 @@
-export const Employee = (employeeObject, computerObject, departmentObject) => {
+export const Employee = (employeeObject, computerObject, departmentObject, locationObject) => {
     return `
 <div class="employee">
     <header class="employee__name">
@@ -9,6 +9,9 @@ export const Employee = (employeeObject, computerObject, departmentObject) => {
     </section>
     <section class="employee__department">
         <div>Works in the ${departmentObject.name} department</div>
+    </section>
+    <section class="employee__location">
+        <div>Works at the ${locationObject.name} office</div>
     </section>
 </div> 
     `

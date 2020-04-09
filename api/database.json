@@ -38,7 +38,8 @@
             "lastName": "Ittycheriah",
             "age": 26,
             "computerId": 1,
-            "departmentId": 1
+            "departmentId": 1,
+            "locationId": 1
         },
         {
             "id": 1,
@@ -46,7 +47,8 @@
             "lastName": "Marly",
             "age": 24,
             "computerId": 2,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 2
         },
         {
             "id": 1,
@@ -54,7 +56,8 @@
             "lastName": "Iam",
             "age": 25,
             "computerId": 3,
-            "departmentId": 3
+            "departmentId": 3,
+            "locationId": 3
         },
         {
             "id": 1,
@@ -62,7 +65,8 @@
             "lastName": "Barker",
             "age": 26,
             "computerId": 4,
-            "departmentId": 4
+            "departmentId": 4,
+            "locationId": 1
         },
         {
             "id": 1,
@@ -70,7 +74,8 @@
             "lastName": "ShiningArmor",
             "age": 32,
             "computerId": 5,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 2
         }, 
         {
             "id": 1,
@@ -78,7 +83,8 @@
             "lastName": "Styles",
             "age": 28,
             "computerId": 6,
-            "departmentId": 3
+            "departmentId": 3,
+            "locationId": 3
         }
     ],
     "departments": [
@@ -97,6 +103,20 @@
         {
             "id": 4,
             "name": "Asssembly"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Memphis"
+        },
+        {
+            "id": 2,
+            "name": "Nashville"
+        },
+        {
+            "id": 3,
+            "name": "Atlanta"
         }
     ]
 }
